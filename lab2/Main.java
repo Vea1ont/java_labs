@@ -1,5 +1,7 @@
 package lab2;
 
+import lab3.Names;
+
 public class Main {
     public static void main(String[] args) {
         System.out.println("1.2");
@@ -52,10 +54,10 @@ public class Main {
         }
 
         System.out.println("4.5");
-        Names45 kleopatra = new Names45("Клеопатра");
-        Names45 pushkin = new Names45("Александр", "Пушкин", "Сергеевич");
-        Names45 mayakovsky = new Names45("Владимир", "Маяковский");
-        Names45 khristofor = new Names45("Христофор", "Бонифатьевич");
+        Names kleopatra = new Names("Клеопатра");
+        Names pushkin = new Names("Александр", "Пушкин", "Сергеевич");
+        Names mayakovsky = new Names("Владимир", "Маяковский");
+        Names khristofor = new Names("Христофор", "Бонифатьевич");
 
         System.out.println(kleopatra);
         System.out.println(pushkin);
